@@ -11,7 +11,6 @@ async function run() {
 const app = express();
 app.get('*', (req, res) => {
     run().then((html) => {
-        // console.log(html);
         res.send(html);
     })
 
