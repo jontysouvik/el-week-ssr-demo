@@ -1,0 +1,15 @@
+.hero {
+    height: 500px;
+    background-color:#f0e4befb;
+    position: relative;
+    border-radius: 10px;
+}
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h2 {
+    text-align: center;
+}
