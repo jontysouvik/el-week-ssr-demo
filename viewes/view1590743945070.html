@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>SsrDemo</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <style>
+    /* You can add global styles to this file, and also import other style files */
+
+    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlcy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsOEVBQThFIiwiZmlsZSI6InN0eWxlcy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBZb3UgY2FuIGFkZCBnbG9iYWwgc3R5bGVzIHRvIHRoaXMgZmlsZSwgYW5kIGFsc28gaW1wb3J0IG90aGVyIHN0eWxlIGZpbGVzICovXG4iXX0= */
+  </style>
+  <style>
+    nav[_ngcontent-serverApp-c22] {
+      margin-bottom: 20px;
+    }
+
+    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxtQkFBbUI7QUFDdkIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIm5hdiB7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG59Il19 */
+  </style>
+  <style>
+    .hero[_ngcontent-serverApp-c18] {
+      height: 500px;
+      background-color: crimson;
+      position: relative;
+    }
+
+    h1[_ngcontent-serverApp-c18] {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #ffffff;
+    }
+
+    h2[_ngcontent-serverApp-c18] {
+      text-align: center;
+    }
+
+    /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9yZWQvcmVkLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IseUJBQXlCO0lBQ3pCLGtCQUFrQjtBQUN0QjtBQUNBO0lBQ0ksa0JBQWtCO0lBQ2xCLFFBQVE7SUFDUixTQUFTO0lBQ1QsZ0NBQWdDO0lBQ2hDLGNBQWM7QUFDbEI7QUFDQTtJQUNJLGtCQUFrQjtBQUN0QiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcmVkL3JlZC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmhlcm8ge1xyXG4gICAgaGVpZ2h0OiA1MDBweDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IGNyaW1zb247XHJcbiAgICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbn1cclxuaDEge1xyXG4gICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4gICAgdG9wOiA1MCU7XHJcbiAgICBsZWZ0OiA1MCU7XHJcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcclxuICAgIGNvbG9yOiAjZmZmZmZmO1xyXG59XHJcbmgyIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxufSJdfQ== */
+  </style>
+</head>
+
+<body>
+  <app-root _nghost-serverapp-c22="" ng-version="9.1.9">
+    <nav _ngcontent-serverapp-c22="" class="navbar navbar-expand-lg navbar-light"><a _ngcontent-serverapp-c22=""
+        routerlink="/" class="navbar-brand" ng-reflect-router-link="/" href="/">SSR DEMO</a>
+      <div _ngcontent-serverapp-c22="" id="navbarSupportedContent" class="collapse navbar-collapse">
+        <ul _ngcontent-serverapp-c22="" class="navbar-nav mr-auto">
+          <li _ngcontent-serverapp-c22="" class="nav-item"><a _ngcontent-serverapp-c22="" routerlink="/red"
+              class="nav-link" ng-reflect-router-link="/red" href="/red">Red</a></li>
+          <li _ngcontent-serverapp-c22="" class="nav-item"><a _ngcontent-serverapp-c22="" routerlink="/blue"
+              class="nav-link" ng-reflect-router-link="/blue" href="/blue">Blue</a></li>
+          <li _ngcontent-serverapp-c22="" class="nav-item"><a _ngcontent-serverapp-c22="" routerlink="/green"
+              class="nav-link" ng-reflect-router-link="/green" href="/green">Green</a></li>
+        </ul>
+      </div>
+    </nav>
+    <router-outlet _ngcontent-serverapp-c22=""></router-outlet>
+    <app-red _nghost-serverapp-c18="">
+      <div _ngcontent-serverapp-c18="" class="container">
+        <div _ngcontent-serverapp-c18="" class="row">
+          <div _ngcontent-serverapp-c18="" class="col-md-12">
+            <h2 _ngcontent-serverapp-c18="">Hi I am Red!</h2>
+            <div _ngcontent-serverapp-c18="" class="hero">
+              <h1 _ngcontent-serverapp-c18="">Red Component</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </app-red>
+    <!--container-->
+  </app-root>
+  <script src="runtime.js" type="module"></script>
+  <script src="polyfills.js" type="module"></script>
+  <script src="styles.js" type="module"></script>
+  <script src="vendor.js" type="module"></script>
+  <script src="main.js" type="module"></script>
+
+</body>
+
+</html>
